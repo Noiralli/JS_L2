@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+header {
+  display: flex;
+  align-self: flex-end;
+  margin: 0 0 20px;
+}
+.cart-button {
+  padding: 10px;
+  margin: 0;
+}
+.goods-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.goods-item {
+  width: 100px;
+  height: auto;
+  border: 2px solid rgb(231, 184, 184);
+  padding: 10px;
+  border-radius: 10px;
+}
+.goods-item:hover {
+  background-color: rgb(241, 217, 217);
+}
+.goods-item h3,
+p {
+  text-align: center;
+}
